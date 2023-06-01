@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "IDroid";
+    src: url(fontes/idroid.otf); 
+}
+
+body {
+    min-height: 100%;
+    background-color: #b0f8cb;
+}
+header {
+    height: auto;
+    padding: 2px;
+    margin: -8px;
+    background-image: linear-gradient(to bottom, #1CE166, #107d3a, #0b5126);
+    color: white;
+}
+
+#Paragrafotitulo {
+    font-family: "IDroid";
+    text-align: center;
+    text-indent: 0px;
+    max-width: 100%;
+}
+
+#titulocabecalho {
+    font-family: sans-serif;
+    text-align: center;
+    width: auto;
+}
+
+nav {
+    text-align: left;
+    padding: 8px;
+    margin: auto; 
+    background-color: #0b5126;
+}
+
+nav > abbr {
+    padding: 8px;
+    text-decoration: none;
+    
+}
+
+nav > abbr:hover {
+   background-color: #0c873b; 
+}
+
+main {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 50%;
+    text-align: center;  
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: left;
+    text-indent: 1em;
+}
+#Imagemgrande {
+    width: 55%;
+}
+
+#TituloRodape {
+    text-align: left;
+    text-indent: 1em;
+}
+
+aside {
+    background-color: #107d3a;
+    padding: 1px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+article {
+    background-color: #b0f8cb;
+    margin-top: -16px;
+}
+
+ul {
+    text-align: left;
+    width: 100%;
+    list-style-type: none;
+}
+
+.primeiralinha {
+    display: inline-block;
+    margin-right: 295px;
+}
+
+.segundalinha {
+    display: inline-block;
+    margin-right: 311px;
+}
+
+.terceiralinha {
+    display: inline-block;
+    margin-right: 313px;
+}
+
+.Quartalinha {
+    display: inline-block;
+    margin-right: 299px;
+}
+
+.quintalinha {
+    display: inline-block;
+    margin-right: 273px;
+}
+
+.sextalinha {
+    display: inline-block;
+    margin-right: 276px;
+}
+
+.setimalinha {
+    display: inline-block;
+    margin-right: 220px;
+}
+
+#tituloprincipal {
+    font-family: "IDroid";
+    text-align: left;
+    color: #107d3a;
+}
+
+.titulossecundario {
+    font-family: "IDroid";
+    text-align: left;
+    background-color: #1ce16729;
+    color: #107d3a;
+}
+
+.Destaque {
+    color: #0b5126;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.links {
+    color: #0b5126;
+    background-color: #1CE166;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    color: #1CE166;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.menu:hover {
+    color: black;
+    background-color: #1CE166;
+}
+
+footer {
+    background-color: #0b5126;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+#texrodape {
+    text-align: center;
+    color: white;
+}
+
+.linksrodape {
+    color: white;
+    text-decoration: none;
+} 
+
+.linksrodape:hover {
+    color: #1CE166;
+    text-decoration: underline;
+}
+
